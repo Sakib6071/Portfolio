@@ -6,6 +6,33 @@ body{
     margin: 0;
     padding: 0;
     background-color: #FFF8F3;
+   
+}
+.primaryBtn{
+    background-color: #FD6E0A;
+    color: #ffffff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: 0px;
+}
+.secondaryBtn{
+    font-size: 20px;
+    border: 2px solid #FD6E0a;
+    margin-left: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.primaryBtn a{
+    color: #fff;
 }
 
 .basicColor{
@@ -14,6 +41,7 @@ body{
 .basicTextColor{
     color: #474747;
 }
+
 .header{
     width: 90%;
     margin: auto;
@@ -36,8 +64,43 @@ nav ul li a{
     font-size: 20px;
     color: #474747;
 }
+nav ul li a:hover{
+    color: #fd6e0a;
+}
+.primaryBtn a:hover{
+    color:black
+}
 .name{
     font-size: 45px;
     font-weight: 800;
 }
+
+
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding: 0 140px 0 100px;
+}
+
+.homeDescription{
+    max-width: 650px;
+}
+.homeDescription h4{
+    font-size: 45px;
+    margin: 0;
+}
+.homeDescription h2{
+    font-size: 85px;
+    margin: 0;
+}
+.homeDescription p{
+    font-size: 18px;
+}
+
+
 
