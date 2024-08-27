@@ -73,6 +73,8 @@ section{
     align-items: center;
 }
 nav{
+    width: 80%;
+    margin: auto;
     padding: 2px 20px;
 }
 nav ul{
@@ -136,6 +138,7 @@ nav ul li a:hover{
 .mainAbout{
     border: 2px solid #000;
     padding: 20px;
+    padding-bottom: 70px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -235,4 +238,36 @@ hr{
     width: 100%;
     color: black;
     background-color: black;
+}
+
+.footer{
+    background-color: #fff8f3;
+    padding: 50px 5px;
+}
+.footerContainer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 100px;
+}
+.social, .form{
+    width: 50%;
+    padding: 20px;
+}
+.footerHeading{
+    font-size: 35px;
+    font-weight: 700;
+}
+footer input[type="text"],  footer input[type="email"], footer textarea{
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+footer textarea{
+    height: auto;
 }
