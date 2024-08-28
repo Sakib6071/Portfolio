@@ -286,8 +286,8 @@ footer textarea {
   border-radius: 5px;
   background-color: white;
   display: block;
-  width: 100%;
-  padding: 10px 20px;
+  width: 95%;
+  padding: 5px;
   margin-bottom: 24px;
   border: none;
 }
@@ -305,6 +305,18 @@ footer img:hover {
 
 @media screen and (max-width: 800px) {
   /* header nav */
+  .home, .about,section, .footerContainer {
+    width: 95%;
+  }
+  .home p{
+    text-align: justify;
+  }
+  nav {
+    width: 95%;
+    margin: auto;
+    padding: 2px 10px;
+}
+
   .fullNav {
     flex-direction: column;
     justify-content: center;
@@ -318,6 +330,9 @@ footer img:hover {
   .homeDescription {
     padding-bottom: 30px;
   }
+  .homeDescription h2 {
+    font-size: 45px;
+}
   .btnGroup {
     justify-content: center;
   }
