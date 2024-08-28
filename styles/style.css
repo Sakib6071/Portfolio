@@ -125,6 +125,18 @@ nav ul li a:hover{
 .homeDescription p{
     font-size: 18px;
 }
+.btnGroup{
+    display: flex;
+    gap: 20px;
+}
+.btnGroup button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.btnGroup button:hover{
+    cursor: pointer;
+}
 
 
 
@@ -199,6 +211,7 @@ nav ul li a:hover{
 
 .resume{
     margin-top: 150px;
+    margin-bottom: 100px;
 }
 .resumeContainer{
     display: flex;
@@ -239,6 +252,22 @@ hr{
     color: black;
     background-color: black;
 }
+.downloadbtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.downloadbtn button{
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 
 .footer{
     background-color: #fff8f3;
@@ -270,4 +299,10 @@ footer input[type="text"],  footer input[type="email"], footer textarea{
 }
 footer textarea{
     height: auto;
+}
+footer img{
+    margin-right: 10px;
+}
+footer img:hover{
+cursor: pointer;
 }
