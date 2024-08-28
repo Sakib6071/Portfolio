@@ -324,6 +324,7 @@ footer img:hover {
   .name {
     margin-top: 5px;
     margin-bottom: 5px;
+    font-size: 40px;
   }
   .home {
     flex-direction: column;
@@ -332,10 +333,20 @@ footer img:hover {
     padding-bottom: 30px;
   }
   .homeDescription h2 {
-    font-size: 45px;
+    font-size: 38px;
+}
+.homeDescription h4 {
+    font-size: 35px;
+    margin: 0;
 }
   .btnGroup {
     justify-content: center;
+  }
+  .btnGroup button{
+    font-size: 18px;
+  }
+  .sectionTitle, .footerHeading, .resumeSectionTitle{
+    font-size: 30px;
   }
   .header {
     background-image: url("../images/header_bg_responsive.png");
