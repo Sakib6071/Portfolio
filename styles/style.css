@@ -306,13 +306,13 @@ footer img:hover {
 @media screen and (max-width: 800px) {
   /* header nav */
   .home, .about,section, .footerContainer {
-    width: 95%;
+    width: 90%;
   }
   .home p{
     text-align: justify;
   }
   nav {
-    width: 95%;
+    width: 90%;
     margin: auto;
     padding: 2px 10px;
 }
@@ -322,6 +322,7 @@ footer img:hover {
     justify-content: center;
   }
   .name {
+    margin-top: 5px;
     margin-bottom: 5px;
   }
   .home {
